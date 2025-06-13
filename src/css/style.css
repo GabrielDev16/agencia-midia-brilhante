@@ -1,8 +1,20 @@
+:root{
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --other-color: #204786;
+}
+
 body {
   font-family: "Segoe UI", sans-serif;
 }
 .hero {
-  background-color: #343a40;
+  background-color: #204786;
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -12,8 +24,9 @@ body {
   margin-bottom: 30px;
 }
 footer {
-  background-color: #212529;
+  background-color: #204786;
   color: white;
   padding: 20px 0;
   text-align: center;
 }
+

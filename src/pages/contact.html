@@ -24,6 +24,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- link falvicon -->
+    <link
+      rel="shortcut icon"
+      href="../img/logo do projeto.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- tag do cabeçalho -->
@@ -67,46 +73,53 @@
     <!-- tag do conteudo principal da página de contatos  -->
     <main>
       <!-- seção dos textos ecampos de formulario -->
-    <section class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">Fale Conosco</h2>
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <h5><i class="fas fa-envelope text-primary"></i> Email</h5>
-            <p>contato@midiabrilhante.com</p>
-            <h5><i class="fas fa-phone text-primary"></i> Telefone</h5>
-            <p>(11) 99999-9999</p>
-            <h5><i class="fas fa-map-marker-alt text-primary"></i> Endereço</h5>
-            <p>Rua Criatividade, 123 - São Paulo, SP</p>
-          </div>
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Fale Conosco</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h5><i class="fas fa-envelope text-primary"></i> Email</h5>
+              <p>contato@midiabrilhante.com</p>
+              <h5><i class="fas fa-phone text-primary"></i> Telefone</h5>
+              <p>(11) 99999-9999</p>
+              <h5>
+                <i class="fas fa-map-marker-alt text-primary"></i> Endereço
+              </h5>
+              <p>Rua Criatividade, 123 - São Paulo, SP</p>
+            </div>
 
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" required />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
-              <div class="mb-3">
-                <label for="mensagem" class="form-label">Mensagem</label>
-                <textarea
-                  class="form-control"
-                  id="mensagem"
-                  rows="5"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">
-                Enviar Mensagem
-              </button>
-            </form>
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nome" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label">Mensagem</label>
+                  <textarea
+                    class="form-control"
+                    id="mensagem"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Enviar Mensagem
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </main>
     <!-- rodapé -->
     <footer class="bg-dark text-white text-center py-4">
