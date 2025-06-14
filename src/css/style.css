@@ -39,10 +39,10 @@ footer {
 
 .cardCT {
   border: 1px solid #204786;
-  padding: 12px;
   border-radius: 12px;
   box-shadow: 2px 0px 20px #20478676;
   transition: transform 0.3s ease;
+  margin: 10px;
 }
 
 .cardSERV {
