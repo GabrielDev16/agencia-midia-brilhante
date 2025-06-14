@@ -1,4 +1,5 @@
-:root{
+:root {
+  /*colors*/
   --primary-color: #007bff;
   --secondary-color: #6c757d;
   --success-color: #28a745;
@@ -8,16 +9,18 @@
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --other-color: #204786;
+  /*fonts*/
+  --font-family: "Segoe UI", sans-serif;
+  --font-size-base: 16px;
 }
 
 body {
   font-family: "Segoe UI", sans-serif;
 }
 .hero {
-  background-color: #204786;
+  background-color: #222222;
   color: white;
   padding: 100px 0;
-  text-align: center;
 }
 .section-title {
   margin-top: 50px;
@@ -30,3 +33,54 @@ footer {
   text-align: center;
 }
 
+.txtP {
+  font-weight: 500;
+}
+
+.cardCT {
+  border: 1px solid #204786;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 2px 0px 20px #20478676;
+  transition: transform 0.3s ease;
+}
+
+.cardSERV {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #204786;
+  border-radius: 12px;
+  box-shadow: 2px 0px 20px #20478676;
+  transition: transform 0.3s ease;
+}
+
+.cardPF {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #204786;
+  border-radius: 12px;
+  box-shadow: 2px 0px 20px #20478676;
+  height: 380px;
+  transition: transform 0.3s ease;
+  
+  .card-text , .card-title{
+    margin-top: 19px;
+  }
+}
+
+.cardCT:hover,
+.cardSERV:hover,
+.cardPF:hover {
+  transform: scale(1.05);
+  border: 1px solid #fff;
+  box-shadow: 2px 0px 20px #ffffff6f;
+}
+
+a.nav-link:hover {
+  color: #204786;
+  text-decoration: none;
+}
