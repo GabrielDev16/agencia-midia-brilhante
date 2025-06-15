@@ -17,15 +17,19 @@
 body {
   font-family: "Segoe UI", sans-serif;
 }
+
 .hero {
   background-color: #222222;
   color: white;
   padding: 100px 0;
+  
 }
+
 .section-title {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
 footer {
   background-color: #204786;
   color: white;
@@ -40,9 +44,12 @@ footer {
 .cardCT {
   border: 1px solid #204786;
   border-radius: 12px;
+  padding: 12px;
+  width: 90%;
   box-shadow: 2px 0px 20px #20478676;
+  /* min-width:320px;
+  max-width: 1080px; */
   transition: transform 0.3s ease;
-  margin: 10px;
 }
 
 .cardSERV {
